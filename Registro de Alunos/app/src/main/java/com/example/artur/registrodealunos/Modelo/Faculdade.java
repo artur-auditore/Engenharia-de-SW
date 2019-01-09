@@ -11,6 +11,7 @@ public class Faculdade {
     @Id Long id;
     private String nome;
     private String email;
+    private String contatoPrincipal;
     private List<Aluno> alunos;
 
     Faculdade() { }
@@ -35,4 +36,11 @@ public class Faculdade {
         return alunos;
     }
 
+    public String getContatoPrincipal() {
+        return contatoPrincipal;
+    }
+
+    public void setContatoPrincipal(String contatoPrincipal) {
+        this.contatoPrincipal = contatoPrincipal;
+    }
 }

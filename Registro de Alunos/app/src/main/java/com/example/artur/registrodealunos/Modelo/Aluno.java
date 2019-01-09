@@ -5,7 +5,7 @@ import io.objectbox.annotation.Id;
 
 @Entity
 public class Aluno {
-    
+
     @Id Long id;
     private String nome;
     private String curso;
