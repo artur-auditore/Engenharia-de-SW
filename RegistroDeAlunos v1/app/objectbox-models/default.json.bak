@@ -22,11 +22,40 @@
         }
       ],
       "relations": []
+    },
+    {
+      "id": "2:8791340786250259196",
+      "lastPropertyId": "4:9037760201457692472",
+      "name": "Faculdade",
+      "properties": [
+        {
+          "id": "1:3512923920285569844",
+          "name": "id"
+        },
+        {
+          "id": "2:8277790901940772928",
+          "name": "nome"
+        },
+        {
+          "id": "3:4572799890651702159",
+          "name": "email"
+        },
+        {
+          "id": "4:9037760201457692472",
+          "name": "contatoPrincipal"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:1305029903911288800",
+          "name": "alunos"
+        }
+      ]
     }
   ],
-  "lastEntityId": "1:3513857391039744184",
+  "lastEntityId": "2:8791340786250259196",
   "lastIndexId": "0:0",
-  "lastRelationId": "0:0",
+  "lastRelationId": "1:1305029903911288800",
   "lastSequenceId": "0:0",
   "modelVersion": 4,
   "modelVersionParserMinimum": 4,

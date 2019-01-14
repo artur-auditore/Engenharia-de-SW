@@ -1,0 +1,74 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3513857391039744184",
+      "lastPropertyId": "4:3558193412683212710",
+      "name": "Aluno",
+      "properties": [
+        {
+          "id": "1:3805606517790189126",
+          "name": "id"
+        },
+        {
+          "id": "2:1086178404664412889",
+          "name": "nome"
+        },
+        {
+          "id": "3:1347350620867793680",
+          "name": "curso"
+        },
+        {
+          "id": "4:3558193412683212710",
+          "indexId": "1:8173117894390949708",
+          "name": "faculdadeId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:9150200646202674869",
+      "lastPropertyId": "4:9023829366899577728",
+      "name": "Faculdade",
+      "properties": [
+        {
+          "id": "1:4227748622049866490",
+          "name": "id"
+        },
+        {
+          "id": "2:2126848512600043762",
+          "name": "nome"
+        },
+        {
+          "id": "3:2953651113021412502",
+          "name": "email"
+        },
+        {
+          "id": "4:9023829366899577728",
+          "name": "contatoPrincipal"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:5943175349131919917",
+          "name": "alunos"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "2:9150200646202674869",
+  "lastIndexId": "1:8173117894390949708",
+  "lastRelationId": "2:5943175349131919917",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [
+    1132080237410042754
+  ],
+  "version": 1
+}
