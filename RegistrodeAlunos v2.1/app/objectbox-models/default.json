@@ -1,0 +1,66 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:160464098654339697",
+      "lastPropertyId": "4:1496540287406969297",
+      "name": "Faculdade",
+      "properties": [
+        {
+          "id": "1:7797716537239865528",
+          "name": "id"
+        },
+        {
+          "id": "2:6843851974105517247",
+          "name": "nome"
+        },
+        {
+          "id": "3:5297070583626502765",
+          "name": "email"
+        },
+        {
+          "id": "4:1496540287406969297",
+          "name": "contatoPrincipal"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2090084939150538365",
+      "lastPropertyId": "4:4663334488051650941",
+      "name": "Aluno",
+      "properties": [
+        {
+          "id": "1:2660274649787054260",
+          "name": "id"
+        },
+        {
+          "id": "2:4077214170976597304",
+          "name": "nome"
+        },
+        {
+          "id": "3:4868611680983306117",
+          "name": "curso"
+        },
+        {
+          "id": "4:4663334488051650941",
+          "name": "faculdade"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2090084939150538365",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

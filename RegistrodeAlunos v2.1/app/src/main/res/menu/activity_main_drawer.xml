@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_aluno"
+            android:icon="@drawable/student"
+            android:title="Alunos" />
+        <item
+            android:id="@+id/nav_faculdades"
+            android:icon="@drawable/campus_1__733835"
+            android:title="Faculdades" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+    </group>
+
+</menu>
